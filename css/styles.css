@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #fff;
+}
+
+/*header*/
+/* navigation*/
+
+.navigation a {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.navigation .logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.navigation span {
+  color: #2e2f42;
+}
+.link-effects:hover {
+  color: #404bbf;
+}
+.navigation-ul li:first-child a:focus {
+  color: #404bbf;
+}
+
+/*address*/
+.address {
+  font-style: normal;
+}
+.address a {
+  color: #434455;
+}
+.address .link-effects:focus {
+  color: #404bbf;
+}
+
+/*main*/
+
+.title-level-one {
+  color: #fff;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.title-level-two {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.title-level-three {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/*section 1*/
+
+.hero-image {
+  background-color: #2e2f42;
+}
+
+.btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: #404bbf;
+}
+.btn:focus {
+  background-color: #404bbf;
+}
+/*section 2*/
+
+.info {
+}
+
+/*section 3*/
+
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team-li {
+  background-color: #fff;
+}
+
+/*section 4*/
+
+.our-portfolio {
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+.footer-link {
+  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-span {
+  color: #f4f4fd;
+}
