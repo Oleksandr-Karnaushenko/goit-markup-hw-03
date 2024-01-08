@@ -18,12 +18,12 @@ body {
 a {
   text-decoration: none;
 }
-/*.container {
+
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-*/
 
 /*  header */
 
@@ -250,8 +250,10 @@ a {
   gap: 16px;
   flex-shrink: 0;
 }
-.footer-link {
+.footer a {
   display: inline-block;
+}
+.footer-link {
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -266,9 +268,4 @@ a {
 }
 .footer-text {
   max-width: 264px;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
